@@ -40,3 +40,24 @@ Feel free to explore my code and analysis to gain insights into the challenges a
 - [Medium Article on IV](https://sundarstyles89.medium.com/weight-of-evidence-and-information-value-using-python-6f05072e83eb)
 
 Thank you for your interest in my project! Your feedback and suggestions are greatly appreciated.
+
+
+
+**Objective****Situation**: I was tasked with predicting the creditworthiness of bank customers for the credit card department. This was crucial for the bank's risk management, as indiscriminate approval of credit cards could lead to financial losses.
+
+**Task**: The goal was to develop a data-driven approach using a dataset containing customer information, including income, gender, education, and other factors, along with a dataset indicating whether credit card applications were approved or rejected.
+
+**Action**: Here's how I approached the project:
+1. **Data Cleaning**: I handled missing data and performed data cleansing. Notably, I replaced missing occupation data with income type information and dropped irrelevant columns.
+
+2. **Feature Engineering**: I created new features, like grouping education levels, combining similar categories, and categorizing numerical data for better model performance.
+
+3. **Exploratory Data Analysis (EDA)**: I explored data distributions, identified outliers, and discovered correlations between variables, which informed feature engineering decisions.
+
+4. **Modeling**: I tried various machine learning models, including logistic regression, random forest, and XGBoost. However, the models struggled due to the imbalance in the dataset and the lack of highly relevant financial data.
+
+5. **Model Evaluation**: I assessed model performance, but the results didn't show significant improvements, considering the limitations of the data.
+
+**Result**: The project illuminated the challenges of predicting creditworthiness with limited financial data and a highly imbalanced dataset. The models developed didn't yield satisfactory results due to the scarcity of negative examples and the absence of critical financial information.
+
+This project showcased my expertise in data preprocessing, feature engineering, and machine learning, despite the complex nature of the task.
